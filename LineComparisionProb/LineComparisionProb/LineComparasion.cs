@@ -64,11 +64,11 @@ namespace LineComparisionProb
 
             else if (Length1 > Length2)
             {
-                Console.WriteLine("L1 IS GREATER THAN L2");
+                Console.WriteLine("Length1 IS GREATER THAN Length2");
             }
             else
             {
-                Console.WriteLine("L1 IS LESS THAN L2");
+                Console.WriteLine("Length1 IS LESS THAN Length2");
             }
         }
     }
