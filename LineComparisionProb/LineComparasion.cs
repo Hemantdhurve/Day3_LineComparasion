@@ -10,6 +10,7 @@ namespace LineComparisionProb
     {
         public static void CalculateLength()
         {
+  
             //comparing two lines L1 and L2
 
             //1st part line no 1 : L1
@@ -18,6 +19,11 @@ namespace LineComparisionProb
 
             Console.WriteLine("Enter Value of : X1");
             //string value converted to integer
+
+            Console.WriteLine("Enter Value of : X1");
+            //string value converted to integer
+
+
             int X1 = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Enter Value of : X2");
@@ -28,6 +34,7 @@ namespace LineComparisionProb
 
             Console.WriteLine("Enter Value of : Y2");
             int Y2 = Convert.ToInt32(Console.ReadLine());
+
 
             //2st part line no 2 : L2
 
@@ -66,6 +73,14 @@ namespace LineComparisionProb
             {
                 Console.WriteLine("BOTH LINES ARE NOT EQUAL");
             }
+
+            //using double to get square root value in double decimal points
+
+            double length = Math.Sqrt((Math.Pow((X2 - X1), 2) + Math.Pow((Y2 - Y1), 2)));
+            Console.WriteLine("Length of the line is :" + length);
+
+            Console.ReadLine();
+
         }
     }
 }
